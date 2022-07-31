@@ -14,10 +14,6 @@ var enemyNames = ['Roborto', 'Amy Android', 'Robo Trumble'];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
-console.log(enemyNames);
-console.log(enemyNames.length);
-console.log(enemyNames[0]);
-console.log(enemyNames[3]);
 
 
 //fight function(now with parameter for enemy's name)
@@ -57,7 +53,7 @@ if (enemyHealth <= 0) {
    //leave while() loop since enemy is dead
    break;
 } else {
-   window.alert(enemyName + "still has" + enemyHealth + "health left.");
+   window.alert(enemyName + "still has " + enemyHealth + "health left.");
 }
 
 // remove player's health by subtracting the amount set in the enemyAttack variable
